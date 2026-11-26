@@ -1,0 +1,6 @@
+feedback about Exercises for the third day
+
+1- use default in switch
+2-use math.random in Q3
+
+just that.

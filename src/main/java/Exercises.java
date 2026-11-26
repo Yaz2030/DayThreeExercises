@@ -9,19 +9,19 @@ If the role is admin print "welcome admin"
 If the role is superuser print "welcome superuser"
 If the role is user print "welcome user" (tip:
 use if else) */
-//        Scanner input = new Scanner(System.in);
-//        System.out.println("Enter your role of this list :\n - admin\n- superuser\n- user \n");
-//        String role = input.nextLine();
-//
-//        if (role.equalsIgnoreCase("admin")){
-//            System.out.print("Welcome Admin");
-//        }else if (role.equalsIgnoreCase("superuser")){
-//            System.out.print("Welcome Superuser");
-//        }else if (role.equalsIgnoreCase("user")) {
-//            System.out.print("Welcome User");
-//        }else {
-//            System.out.print("Invalid role");
-//        }
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter your role of this list :\n - admin\n- superuser\n- user \n");
+        String role = input.nextLine();
+
+        if (role.equalsIgnoreCase("admin")){
+            System.out.print("Welcome Admin");
+        }else if (role.equalsIgnoreCase("superuser")){
+            System.out.print("Welcome Superuser");
+        }else if (role.equalsIgnoreCase("user")) {
+            System.out.print("Welcome User");
+        }else {
+            System.out.print("Invalid role");
+        }
 
 
         //---------------------------------------
@@ -34,21 +34,21 @@ use if else) */
         Expected Output : The
         greatest: 87
             */
-//        System.out.println("Q2");
-//        Scanner input = new Scanner(System.in);
-//
-//        System.out.print("Enter three numbers: ");
-//        int num1 = input.nextInt();
-//        int num2 = input.nextInt();
-//        int num3 = input.nextInt();
-//
-//        if (num1 > num2 && num1 > num3){
-//            System.out.println("greatest number: " + num1);
-//        }else if (num2 > num1 && num2 > num3){
-//            System.out.println("greatest number: " + num2);
-//        }else if (num3 > num1 && num3 > num2) {
-//            System.out.println("greatest number: " + num3);
-//        }
+        System.out.println("Q2");
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter three numbers: ");
+        int num1 = input.nextInt();
+        int num2 = input.nextInt();
+        int num3 = input.nextInt();
+
+        if (num1 > num2 && num1 > num3){
+            System.out.println("greatest number: " + num1);
+        }else if (num2 > num1 && num2 > num3){
+            System.out.println("greatest number: " + num2);
+        }else if (num3 > num1 && num3 > num2) {
+            System.out.println("greatest number: " + num3);
+        }
 
 
         //----------------------------------
@@ -64,7 +64,7 @@ Wednesday*/
         System.out.println("Q3");
 
         System.out.println("Enter a number between 1 and 7: ");
-         Scanner input = new Scanner(System.in); //I can't generate by java without random methods, and I can't use them because we didn't learn it
+         Scanner input = new Scanner(System.in);
         int day = input.nextInt();
 
         switch(day){
@@ -89,6 +89,8 @@ Wednesday*/
                                 case 7:
                                     System.out.println("Saturday");
                                     break;
+                                    default:
+                                        System.out.println("wrong input");
         }
 
 
@@ -108,26 +110,26 @@ Wednesday*/
         Numeric Score: 85
         Letter Grade: B*/
 
-//        System.out.println("Q4");
-//        Scanner input = new Scanner(System.in);
-//
-//        System.out.println("Enter your numeric score: ");
-//        int score = input.nextInt();
-//        System.out.println("Numeric Score: " + score);
-//
-//        if (score >= 90 && score <= 100) {
-//            System.out.println("Letter Grade: A");
-//        } else if (score >= 80 && score <= 89) {
-//            System.out.println("Letter Grade: B");
-//        }else if (score >= 70 && score <= 79) {
-//            System.out.println("Letter Grade: C");
-//        }else if (score >= 60 && score <= 69) {
-//            System.out.println("Letter Grade: D");
-//        }else if (score >= 0 && score <= 59) {
-//            System.out.println("Letter Grade: F");
-//        }else {
-//            System.out.println("The entered score is incorrect.");
-//        }
+        System.out.println("Q4");
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Enter your numeric score: ");
+        int score = input.nextInt();
+        System.out.println("Numeric Score: " + score);
+
+        if (score >= 90 && score <= 100) {
+            System.out.println("Letter Grade: A");
+        } else if (score >= 80 && score <= 89) {
+            System.out.println("Letter Grade: B");
+        }else if (score >= 70 && score <= 79) {
+            System.out.println("Letter Grade: C");
+        }else if (score >= 60 && score <= 69) {
+            System.out.println("Letter Grade: D");
+        }else if (score >= 0 && score <= 59) {
+            System.out.println("Letter Grade: F");
+        }else {
+            System.out.println("The entered score is incorrect.");
+        }
 
         //--------------------------------------------------
 
@@ -143,19 +145,19 @@ Sample Output:
 Enter your age: 25
 You are an Adult. */
 
-//        System.out.println("Q5");
-//        Scanner input = new Scanner(System.in);
-//        System.out.print("Enter your age: ");
-//        int age = input.nextInt();
-//
-//        if (age < 13) {
-//            System.out.println("You are a Child.");
-//        } else if (age >= 13 && age <= 19) {
-//            System.out.println("You are a Teenager.");
-//        } else {
-//            System.out.println("You are an Adult.");
-//
-//        }
+        System.out.println("Q5");
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter your age: ");
+        int age = input.nextInt();
+
+        if (age < 13) {
+            System.out.println("You are a Child.");
+        } else if (age >= 13 && age <= 19) {
+            System.out.println("You are a Teenager.");
+        } else {
+            System.out.println("You are an Adult.");
+
+        }
 
 
     }
